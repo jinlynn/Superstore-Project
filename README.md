@@ -1,22 +1,23 @@
 # 🛒 Customer Segmentation & Sales Analysis: Superstore Dataset
 
 ## 📌 Project Overview
-A customer segmentation and sales analysis project using the Superstore dataset from Kaggle ([link]([url](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data))). The dataset contains with 9,994 transactions from 2014 to 2017. It includes information on sales, profit, orders, products, states, and customer details.
+A customer segmentation and sales analysis project using the Superstore dataset from Kaggle ([link](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data)). The dataset contains with 9,994 transactions from 2014 to 2017. It includes information on sales, profit, orders, products, states, and customer details.
 
 The project combines unsupervised clustering and an interactive dashboard to derive actionable insights for business strategy.
-🔗 **Interactive Dashboard**: [View it on Tableau Public](https://public.tableau.com/shared/KN6CQQS28?:display_count=n&:origin=viz_share_link)
+
+🔗 **Interactive Dashboard**: [View on Tableau Public](https://public.tableau.com/shared/KN6CQQS28?:display_count=n&:origin=viz_share_link)
 
 ## 🎯 Objectives
 - Segment customers based on recency, frequency and monetary value.
 - Recommend tailored strategies for each customer segment.
-- Analyze trends in sales and profitability across products, categories, states, and segments.
+- Analyse trends in sales and profitability across products, categories, states, and segments.
 
 ## 📁 Files and Structure
-- `superstore_clustering.ipynb` — Python notebook for clustering
+- `superstore_clustering.ipynb` — Notebook for clustering
 - `README.md` — This file
 
 ## 🧩 Business Question
-What are the trends in sales and profitability across products, states, categories, and customer segments — and how can we optimize marketing and retention strategies based on customer behaviour?
+What are the trends in sales and profitability across products, states, categories and customer segments?
 
 ## 📌 Key Performance Indicators (KPIs)
 - Total Sales
@@ -50,6 +51,6 @@ The least profitable are: *Colorado, Illinois, Tennessee, Pennsylvania, Texas*.
 - Reassess operations, services or marketing in low-profit states.
 
 ## 🧪 Tools Used
-- Python (Pandas, Seaborn, Matplotlib, Scikit-Learn) for exploratory analysis and clustering
+- Python: Pandas, Seaborn, Matplotlib, Scikit-Learn
 - Tableau: Dashboard creation and visualisation
 
