@@ -47,7 +47,7 @@ The least profitable are: *Colorado, Illinois, Tennessee, Pennsylvania, Texas*.
 ## 🔧 Recommended Actions
 - Review pricing and discount strategies for Furniture.
 - Investigate high-sales, low-profit products as indicated in the treemap.
-- Strategies for different customer segments — detailed breakdown of segment definitions and strategic recommendations can be found in `superstore_clustering.ipynb`.
+- Strategies for different customer segments — detailed breakdown of segment definitions and strategic recommendations can be found in the Summary section of `superstore_clustering.ipynb`.
 - Reassess operations, services or marketing in low-profit states.
 
 ## 🧪 Tools Used
