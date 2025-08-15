@@ -13,8 +13,9 @@ The project combines unsupervised clustering and an interactive dashboard to der
 - Analyse trends in sales and profitability across products, categories, states, and segments.
 
 ## 📁 Files and Structure
+- images — Visuals used in the README
 - `superstore_clustering.ipynb` — Notebook for clustering
-- `README.md` — This file
+- `README.md` — Project overview and documentation
 
 ## 🧩 Business Question
 What are the trends in sales and profitability across products, states, categories and customer segments?
@@ -28,9 +29,13 @@ What are the trends in sales and profitability across products, states, categori
 - Interactive filter by year
 - Trendlines for sales, profit and order volume over time
 - Bar charts for performance by product category
-- Customer segment breakdown by sales, profit, and customer count
+- Customer segment breakdown. Hovering the cursor over a rectangle will reveal the number of customers in the segment, and its sales and profit for the year.
 - Most and least profitable consumer states
-- Treemap showing sales value (rectangle size) and profit (red = negative, green = positive)
+- Treemap showing sales value (rectangle size) and profit (red = negative, green = positive). Hovering the cursor over a rectangle will reveal the name of item, its category, and its sales and profit for the year.
+
+  <img src="/images/dashboard_preview.png" alt="Snapshot of Dashboard" width="80%"/>
+
+_Snapshot of Sales Dashboard._
 
 ## 💡 Key Insights
 - **Customer segments** identified: Nurture, Reward, Re-engage, Reconnect — each with tailored strategies
