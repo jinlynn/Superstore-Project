@@ -47,8 +47,16 @@ The least profitable are: *Colorado, Illinois, Tennessee, Pennsylvania, Texas*.
 ## 🔧 Recommended Actions
 - Review pricing and discount strategies for Furniture.
 - Investigate high-sales, low-profit products as indicated in the treemap.
-- Strategies for different customer segments — detailed breakdown of segment definitions and strategic recommendations can be found in the Summary section of `superstore_clustering.ipynb`.
 - Reassess operations, services or marketing in low-profit states.
+- Strategies for different customer segments
+
+  <img src="/images/customer_segments.png" alt="Customer Segments" width="80%"/>
+
+  _Bar plots representing number of customers in the segment, and line plots representing the average total monetary spend (in thousands), average frequency of purchases, and recency (in hundreds) of last purchase (smaller value means a more recent purchase)._
+  - **Nurture**: This group consists of new, low-value, and infrequent buyers who have made only small or one-time purchases. Their limited interaction suggests low familiarity with the brand, and they may be unsure about the value or fit of the products. To build trust and encourage continued engagement, offer a limited-time discount on their next purchase to prompt immediate action. Use targeted product recommendations, such as “frequently bought together” items, to reduce decision fatigue and increase cart size. Additionally, introduce a referral rewards program that incentivises them to share the brand with friends — for example, offering a discount when a referred friend makes a purchase. This both grows the customer base and reinforces brand trust.
+  - **Reward**: These are high-value buyers who show average recency, above-average frequency, and high monetary value. They’ve demonstrated strong engagement and brand preference by purchasing recently and repeatedly. To retain this valuable group, focus on rewarding their loyalty with meaningful, experience-driven benefits. Offer perks such as exclusive product previews, early access to new collections, or tiered loyalty rewards that recognise their continued support. These actions reinforce their positive experience with the brand, keeping them both satisfied and engaged.
+  - **Re-engage**: This segment includes customers with high recency, average frequency, but lower-than-average spend. These are older buyers who have lapsed in value, and may be losing interest or shifting attention to competitors. The goal is to bring them back into the purchase cycle through gentle nudges and smart incentives. Consider anniversary discounts, product upgrade reminders, or targeted low-cost recommendations tailored to their previous purchases. Personalised emails featuring popular, affordable items they might like can reduce friction and make re-engagement more approachable and effective.
+  - **Reconnect**: This group consists of old customers with high historical spend. Though they haven’t purchased in a long time, their previous transactions indicate significant value. Appeal to their sense of exclusivity by offering membership-based incentives — for example, “Spend again to keep your VIP status” or a one-time loyalty discount. These customers may not respond to generic campaigns, but a personalised reminder of the value they once saw in the brand can motivate a return.
 
 ## 🧪 Tools Used
 - Python: Pandas, Seaborn, Matplotlib, Scikit-Learn
