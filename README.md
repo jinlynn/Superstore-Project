@@ -17,8 +17,11 @@ The project combines unsupervised clustering and an interactive dashboard to der
 - `superstore_clustering.ipynb` — Notebook for clustering
 - `README.md` — Project overview and documentation
 
-## 🧩 Business Question
-What are the trends in sales and profitability across products, states, categories and customer segments and what can be done?
+## 🧩 Business Questions
+- Which product category is the best selling and most profitable?
+- Which customer segment is bringing in the most revenue and is the most profitable?
+- Which state is the most profitable?
+- What are their best-selling products?
 
 ## 📌 Key Performance Indicators (KPIs)
 - Total Sales
@@ -40,19 +43,28 @@ _Snapshot of Sales Dashboard._
 ## 💡 Key Insights
 - Sales, profit and order quantity have been increasing compared to previous years.
 - While each year has fluctuations, there is an overall upward trend in sales, profit, and order volume from 2014 to 2017.
-- Technology is the most profitable category despite having the fewest orders.
-- Furniture generates high sales (comparable to other categories) but delivers significantly lower profit.
-- **Customer segments** identified: Nurture, Reward, Re-engage, Reconnect
-    - Although there are more 'Nurture' customers than 'Reward' customers, the ‘Reward’ segment drives more revenue and profit.
+- Product category:
+    - Technology is the most profitable category despite having the fewest orders.
+    - Furniture generates high sales (comparable to other categories) but has the lowest profit.
+    - Office supplies have the most orders as they have generally low prices.
+- Product sub-category:
+    - The top-selling sub-categories are: Phones, chairs, binders, storage, copiers
+    - The most profitable sub-categories are: Copiers, accessories, phones, paper, appliances
+    - Sub-categories with negative profit are: Bookcases, supplies, machines and tables
+    - The sub-categories with the most orders are: Binders, paper, furnishings, phones and storage
+- Customer segments identified: Nurture, Reward, Re-engage, Reconnect
     - ‘Reward’, the most valuable customer segment, made up 37% of the customer base in 2017 and contributed 66% of revenue.
     - ‘Nurture’, customers that are considered new to the store, made up 40% of the customer base in 2017 and contributed 30% of revenue.
-- The top 5 most profitable states are: *California, Washington, New York, Delaware, Michigan.*
-The least profitable are: *Colorado, Illinois, Tennessee, Pennsylvania, Texas*.
+- States:
+    - The top 5 most profitable states are: *California, Washington, New York, Delaware, Michigan.*
+    - The least profitable are: *Colorado, Illinois, Tennessee, Pennsylvania, Texas*.
 - Some products with high sales have negative profit, indicating potential issues with pricing, discounting, or fulfilment costs.
 
 ## 🔧 Recommended Actions
-- Review pricing and discount strategies for Furniture.
-- Investigate high-sales, low-profit products as indicated in the treemap.
+- Focus on the Technology category as they are the highest-selling and most profitable. In particular, the sub-categories phones, accessories and copiers.
+- The store should ensure their inventory is well-stocked for items in the top-selling and most-orders sub-categories: Binders, phones, storage
+- Review pricing and discount strategies for Furniture. Consider cross-selling these low-profit furniture items with best-selling items. For eg., bundle chairs and tables to offset losses.
+- Investigate high-sales, low-profit products as indicated in the treemap — consider looking for other suppliers or lower cost alternatives.
 - Reassess operations, services or marketing in low-profit states.
 - Strategies for different customer segments
 
