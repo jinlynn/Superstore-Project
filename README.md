@@ -81,7 +81,6 @@ _Snapshot of Dashboard - Regional/ Customer:_
 
 _Snapshot of Dashboard - Product:_
 
-<img src="/images/Product.png" alt="Snapshot of Dashboard - Product" width="80%"/>
 
 **Key Visuals & Features:**
 
