@@ -101,6 +101,10 @@ _Snapshot of Dashboard - Product:_
 - Since furnishings have the highest sales volume and generate positive profit, prioritise marketing these products and explore bundling opportunities — for example, pairing chairs with tables.
 - Investigate high-sales but low-profit products — renegotiate supplier costs or explore alternatives
 
+## 💡 Summary of Key Findings
+
+Overall, the analysis reveals consistent revenue growth but shrinking profit margins due to declining order value and low-profit categories. Customer segmentation highlights opportunities to deepen engagement with “Nurture” and retain “Reward” customers. Product insights suggest optimising pricing strategies.
+
 ## 🧪 Tools Used
 - Python: Pandas, Seaborn, Matplotlib, Scikit-Learn
 - Tableau: Dashboard creation and visualisation
